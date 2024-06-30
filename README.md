@@ -14,6 +14,12 @@ Run with cron by using `Sudo crontab -e` and add
 * * * * * python /cpu_temp_logger.py
 ```
 
+## Check the log
+```
+tail temp.log
+```
+
+
 ### Customize
 The log file will grow to an overwelming size if left for weeks and weeks on end. I've set a limit of 1440 (1 per minute  = 24hrs)
 To edit this update this line: 
